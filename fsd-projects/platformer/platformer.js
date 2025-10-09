@@ -40,14 +40,17 @@ $(function () {
 
 
     // TODO 3 - Create Collectables
-    createCollectable(collectable,x,y);
-    createCollectable(collectable,x,y);
-    createCollectable(collectable,x,y);
+    createCollectable(steve,x,y);
+    createCollectable(steve,x,y);
+    createCollectable(steve,x,y);
 
 
 
     
     // TODO 4 - Create Cannons
+       createCannon(Left,right,x,y);
+       createCannon(right,left,x,y);
+       createCannon(top,bottom,x,y);
 
 
     
