@@ -79,7 +79,7 @@
          * Each time it is called, it should move the Box to a new location.
          * If the box drifts off the screen, turn it around!
          */
-        function update() {moveBoxTo(210);
+        function update() {moveBoxTo(X);
         positionX = positionX+10;
         
 
@@ -93,8 +93,8 @@
          * - increase the speed
          * - move the box to the left side of the screen.
          */
-        function handleBoxClick() {
-
+        function handleBoxClick() {positionX = 0;
+        changeBoxText(0);
 
 
 
