@@ -69,8 +69,8 @@
         //////////////////////////////////////////////////////////////////
 
         // TODO 2 - Variable declarations
-        var positionX= 0
-
+        var positionX= 0;
+        var points= 0;
 
 
 
@@ -79,10 +79,10 @@
          * Each time it is called, it should move the Box to a new location.
          * If the box drifts off the screen, turn it around!
          */
-        function update() {moveBoxTo(X);
+        function update() {
         positionX = positionX+10;
-        
-
+        moveBoxTo(positionX);
+      
           
         }
 
@@ -93,8 +93,9 @@
          * - increase the speed
          * - move the box to the left side of the screen.
          */
-        function handleBoxClick() {positionX = 0;
-        changeBoxText(0);
+        function handleBoxClick() { points=points+1
+          positionX = 0;
+        changeBoxText(points);
 
 
 
