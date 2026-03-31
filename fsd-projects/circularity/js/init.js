@@ -52,6 +52,10 @@ drawCircle()
  for (var loopsCompleted = 0; loopsCompleted < 175; loopsCompleted++) {
 
             drawCircle();
+            drawCircle();
+            drawCircle();
+            drawCircle();
+            drawCircle();
 
         }
 
