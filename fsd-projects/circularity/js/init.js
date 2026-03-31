@@ -66,17 +66,22 @@ drawCircle()
         In each frame, for every circle, it should redraw that circle
         and check to see if it has drifted off the screen.         
         */
-        function update() {
+        
             // TODO 4 : Update the position of each circle using physikz.updatePosition()
 for (var i = 0; i < circles.length; i++) {
 
                physikz.updatePosition(circles[i]);
 
+               game.checkCirclePosition(circles[i]);
+
 
 }
+
+
+
             
             // TODO 5 : Call game.checkCirclePosition() on your circles
-           game.checkCirclePosition(circles[ 0 ])
+           
 
 game.checkCirclePosition(circles[ 1 ])
 
